@@ -17,3 +17,4 @@ spec:
         image: "{{ .Values.app.image }}:{{ .Values.app.tag }}"
         ports:
         - containerPort: {{ .Values.app.targetport }}
+          name: web
