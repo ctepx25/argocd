@@ -3,4 +3,5 @@ app:
   replicas: 1
   image: andreykurseev/flask-monitoring-sample
   tag: latest  
-  port: 5001
+  port: 8080
+  targetport: 5001
