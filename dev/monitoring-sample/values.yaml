@@ -1,0 +1,6 @@
+app:
+  name: monitoring-sample
+  replicas: 1
+  image: andreykurseev/flask-monitoring-sample
+  tag: latest  
+  port: 5001
