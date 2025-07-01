@@ -10,6 +10,6 @@ spec:
     matchLabels:
       app: {{ .Values.app.name }}
   endpoints:
-  - port: {{ .Values.app.port }}
+  - port: web
     path: /metrics
     interval: 15s
