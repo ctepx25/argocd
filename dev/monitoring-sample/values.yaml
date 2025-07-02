@@ -2,6 +2,6 @@ app:
   name: monitoring-sample
   replicas: 1
   image: andreykurseev/flask-monitoring-sample
-  tag: 1.0
+  tag: "1.0"
   port: 8000
   targetport: 8000
