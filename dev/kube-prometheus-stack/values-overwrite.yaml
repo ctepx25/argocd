@@ -1,0 +1,14 @@
+namespaceOverride: "prometheus"
+kube-state-metrics:
+  namespaceOverride: "prometheus"
+prometheus-node-exporter:
+  namespaceOverride: "prometheus"
+
+alertmanager:
+  namespaceOverride: "prometheus"
+
+grafana:
+  namespaceOverride: "prometheus"
+
+prometheus:
+  namespaceOverride: "prometheus"
