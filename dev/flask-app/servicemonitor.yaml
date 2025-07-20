@@ -4,7 +4,7 @@ metadata:
   name: flask-app
   namespace: apps
   labels:
-    release: prometheus # matches kube-prometheus-stack release label
+    release: prometheus-stack # matches kube-prometheus-stack release label
 spec:
   selector:
     matchLabels:
